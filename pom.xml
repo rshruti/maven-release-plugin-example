@@ -14,7 +14,7 @@
 		<repository>
 			<id>nexus</id>
 			<!-- http://localhost:8081/repository/<repository-name> -->
-			<url>http://35.173.255.50:8081/nexus/content/repositories/Releases1/</url>
+			<url>http://34.230.13.77:8081/nexus/content/repositories/Releases1/</url>
 		</repository>
 	</distributionManagement>
 	<profiles>
@@ -64,7 +64,7 @@
 						</executions>
 						<configuration>
 							<serverId>nexus</serverId>
-							<nexusUrl>http://35.173.255.50:8081/nexus/content/repositories/Releases1/</nexusUrl>
+							<nexusUrl>http://34.230.13.77:8081/nexus/content/repositories/Releases1/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
