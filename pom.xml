@@ -63,7 +63,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<serverId>nexus-releases</serverId>
+							<serverId>nexus</serverId>
 							<nexusUrl>http://35.173.255.50:8081/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
