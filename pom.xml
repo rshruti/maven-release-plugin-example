@@ -64,7 +64,7 @@
 						</executions>
 						<configuration>
 							<serverId>nexus</serverId>
-							<nexusUrl>http://35.173.255.50:8081/</nexusUrl>
+							<nexusUrl>http://35.173.255.50:8081/nexus/content/repositories/Releases1/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
