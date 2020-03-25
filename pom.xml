@@ -5,8 +5,7 @@
 	<version>0.2-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/rshruti/maven-release-plugin-example</url>
-		<connection>
-scm:git:http://${rshruti}:${Magnify@67}@3.89.39.164/github.com/rshruti/maven-release-plugin-example.git</connection>
+		<connection>scm:git:https://github.com/rshruti/maven-release-plugin-example.git</connection>
       <tag>HEAD</tag>
   </scm>
 	
