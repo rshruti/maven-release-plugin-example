@@ -12,17 +12,13 @@
 	<!-- Repository Information -->
 	<distributionManagement>
 		<repository>
-			<!--<id>nexus</id> -->
+			<id>nexus</id> 
 			<!-- http://localhost:8081/repository/<repository-name> -->
-			<!--<url>http://3.89.39.164:8081/nexus/content/repositories/Releases1/</url> -->
-			<id>nexus</id>
-                       <url>http://3.89.39.164:8081/nexus/content/repositories/Release2/</url>
+			<url>http://3.89.39.164:8081/nexus/content/repositories/Releases1/</url>
+			
               </repository>
-                    <snapshotRepository>
-                            <id>nexus</id>
-                            <url>http://3.89.39.164:8081/nexus/content/repositories/snapshots/</url>
-                     </snapshotRepository>
-		</distributionManagement>
+                   
+	</distributionManagement>
 	<profiles>
 		<profile>
 			<id>test</id>
